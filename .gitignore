@@ -2,3 +2,4 @@ _build
 cue.mod/
 !cue.mod/module.cue
 node_modules/
+.vscode/*
