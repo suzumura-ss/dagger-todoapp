@@ -18,7 +18,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false --passWithNoTests",
     "gh-pages": "gh-pages -d build -u 'github-actions-bot <support+actions@github.com>'",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dagger-build": "dagger project update; dagger do build",
+    "dagger-test": "dagger project update; dagger do test",
+    "dagger-deploy": "dagger project update; dagger do deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
